@@ -1,0 +1,97 @@
+:root {
+	--elem-height: 44px;
+}
+
+.topBar {
+	background-color: #f0f2f3;
+	padding-block: 20px;
+}
+
+.topBarContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1360px;
+	padding-inline: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 10px;
+    gap: 60px;
+}
+
+/* logo */
+.logoContainer {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.logoText {
+	font-size: 26px;
+	font-weight: 500;
+}
+
+/* search */
+.searchContainer {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	background-color: white;
+	border-radius: 8px;
+	height: var(--elem-height);
+	padding-inline: 16px;
+	width: 100%;
+	max-width: 414px;
+}
+
+.searchInput {
+	flex: 1;
+	outline: none;
+}
+
+/* feature */
+.featureContainer {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.featureBtn {
+	height: var(--elem-height);
+	padding-inline: 16px;
+	background-color: white;
+	border-radius: 8px;
+	display: flex;
+	gap: 12px;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+}
+
+.cartBtnLeft {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.cartBtnQuantity {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	font-weight: 500;
+	background-color: #007580;
+	width: 20px;
+	height: 20px;
+	border-radius: 1000px;
+	color: white;
+}
+
+.squareBtn {
+	width: var(--elem-height);
+	padding-inline: 0;
+	padding-block: 0;
+}
