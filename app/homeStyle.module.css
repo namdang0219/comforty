@@ -92,6 +92,7 @@
 
 .squareBtn {
 	width: var(--elem-height);
+    flex-shrink: 0;
 	padding-inline: 0;
 	padding-block: 0;
 }
